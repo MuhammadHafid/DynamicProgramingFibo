@@ -45,4 +45,10 @@ private static void tampilJudul(String identitas)  {
         
         return hasil[n-1];
     }
+    //Tambah Hitung Fibonacci
+    
+    private static void tampilHasil(int n, BigInteger hasil) {
+        System.out.println("Bilangan Fibonacci Ke - "+n+" : "+hasil);
+    }
+    //Tambah Tampil Hasil
 }
